@@ -7,7 +7,7 @@
 from configparser import ConfigParser
 import os
 
-DIR_PATH = os.getcwd() + "/cloud_computing_project1/"
+DIR_PATH = os.getcwd() #+ "/cloud_computing_project1/"
 FILE_PATH = os.path.join(DIR_PATH, 'weather.ini')
 
 def config(filename=FILE_PATH, section='openweathermap'):
