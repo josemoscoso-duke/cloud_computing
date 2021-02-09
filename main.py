@@ -19,7 +19,7 @@ def index():
                 city: <input type="text" name="city">
                 <input type="submit" value="get weather report">
             </form>"""
-            + "Report: "
+            + "Weather Report: "
             + weather_report
         )
 
